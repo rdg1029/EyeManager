@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EyeManager</string>
+    <string name="ad_id">ca-app-pub-6801525820868787/8938817159</string>
+
+    <string name="permission_msg">Please allow it and try again</string>
+
+    <string name="tv_main_screenfilterservice">Screen Filter</string>
+    <string name="tv_main_screenfilter">Screen Filter</string>
+    <string name="tv_main_screenfilter_selectcolor">Select Color</string>
+    <string name="tv_main_screenfilter_transparency">Transparency</string>
+    <string name="tv_main_nightmodeservice">Night Mode</string>
+    <string name="tv_main_nightmode">Night Mode</string>
+    <string name="tv_main_nightmode_transparency">Transparency</string>
+    <string name="tv_main_notificationservice">Notification Service</string>
+    <string name="tv_main_notification">Notification</string>
+    <string name="btn_main_setting">Setting</string>
+    <string name="btn_main_help">Help</string>
+
+    <string name="noti">Please rest your eyes for a while!</string>
+
+    <string name="help_title">Tips and Cautions</string>
+    <string name="help_message">&lt;Help&gt;\n\nNotification Service will notify the screen on a regular basis\n\nScreen Filter service reduces blue light to reduce eye fatigue\n\n\n&lt;Cautions&gt;\n\nWhen you install apps other than the Play Store, you need to pause the Screen Filter or Night Mode!\n\nIf you use both the Screen Filter and Night Mode, your device may slow down.</string>
+    <string name="help_btn">Confirm</string>
+
+    <string name="setting_scf">ScreenFilter Setting</string>
+    <string name="setting_scf_restart">Auto Restart</string>
+    <string name="setting_scf_restart_ex">Auto restart when your device boot complete</string>
+    <string name="setting_nt">Notification Setting</string>
+    <string name="setting_nt_cycle">Notification Cycle</string>
+    <string name="setting_nt_cycle_ex">Set notification cycle</string>
+    <string name="setting_nt_15">15 minute</string>
+    <string name="setting_nt_30">30 minute</string>
+    <string name="setting_nt_1h">1 hour</string>
+    <string name="setting_nt_2h">2 hour</string>
+    <string name="setting_nt_sound">Notification Sound</string>
+    <string name="setting_nt_sound_ex">Play a sound when the notification window appears</string>
+    <string name="setting_nt_vibrate">Notification Vibrate</string>
+    <string name="setting_nt_vibrate_ex">Vibrate when the notification window appears</string>
+</resources>

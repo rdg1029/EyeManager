@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:weightSum="1"
+	android:background="#FFFFFF"
+    android:orientation="vertical">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/setting_fv"
+				android:layout_marginTop="5dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginBottom="1dp"
+				android:textColor="#5AD27B"
+				android:textStyle="bold"
+				android:text="@string/setting_scf"/>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="3dp"
+				android:layout_marginRight="3dp"
+				android:background="@drawable/card_background">
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_marginBottom="10dp"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/setting_tv_scf_restart"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="5dp"
+						android:layout_marginLeft="5dp"
+						android:layout_centerVertical="true"
+						android:text="@string/setting_scf_restart"
+						android:textColor="#5AD27B"
+						android:textStyle="bold"
+						android:textSize="15dp"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/setting_tv_scf_restart_ex"
+						android:layout_marginLeft="5dp"
+						android:textSize="12dp"
+						android:text="@string/setting_scf_restart_ex"/>
+
+				</LinearLayout>
+
+				<CheckBox
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:layout_marginRight="10dp"
+					android:layout_centerVertical="true"
+					android:id="@+id/setting_scf_restart"/>
+
+			</RelativeLayout>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/setting_nt"
+				android:layout_marginTop="5dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginBottom="1dp"
+				android:textColor="#5AD27B"
+				android:textStyle="bold"
+				android:text="@string/setting_nt"/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="3dp"
+				android:layout_marginRight="3dp"
+				android:orientation="vertical"
+				android:background="@drawable/card_background">
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:orientation="vertical">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/setting_tv_nt_cycle"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="5dp"
+						android:layout_marginLeft="5dp"
+						android:layout_centerVertical="true"
+						android:text="@string/setting_nt_cycle"
+						android:textColor="#5AD27B"
+						android:textStyle="bold"
+						android:textSize="15dp"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/setting_tv_nt_cycle_ex"
+						android:layout_marginLeft="5dp"
+						android:textSize="12dp"
+						android:text="@string/setting_nt_cycle_ex"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:layout_gravity="center_horizontal"
+					android:id="@+id/setting_nt_radiogroup"
+					android:orientation="vertical">
+
+					<RadioGroup
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/setting_nt_time"
+						android:columnCount="3">
+
+						<RadioButton
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/setting_nt_15"
+							android:text="@string/setting_nt_15"/>
+						<RadioButton
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:checked="true"
+							android:id="@+id/setting_nt_30"
+							android:text="@string/setting_nt_30"/>
+						<RadioButton
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/setting_nt_1h"
+							android:text="@string/setting_nt_1h"/>
+						<RadioButton
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/setting_nt_2h"
+							android:text="@string/setting_nt_2h"/>
+
+					</RadioGroup>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+	
+	<com.google.android.gms.ads.AdView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_weight="0"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ad"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_id"/>
+
+</LinearLayout>

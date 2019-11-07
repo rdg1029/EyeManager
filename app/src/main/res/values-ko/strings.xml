@@ -1,0 +1,39 @@
+<resources>
+	<string name="app_name">EyeManager</string>
+	<string name="ad_id">ca-app-pub-6801525820868787/8938817159</string>
+
+	<string name="permission_msg">허용 후 앱을 다시 실행해주세요</string>
+
+	<string name="tv_main_screenfilterservice">스크린필터</string>
+	<string name="tv_main_screenfilter">스크린필터</string>
+	<string name="tv_main_screenfilter_selectcolor">색상 선택</string>
+	<string name="tv_main_screenfilter_transparency">투명도</string>
+	<string name="tv_main_nightmodeservice">야간 모드</string>
+	<string name="tv_main_nightmode">야간 모드</string>
+	<string name="tv_main_nightmode_transparency">투명도</string>
+	<string name="tv_main_notificationservice">알림 서비스</string>
+	<string name="tv_main_notification">알림</string>
+	<string name="btn_main_setting">설정</string>
+	<string name="btn_main_help">도움말</string>
+	
+	<string name="noti">잠시 눈에 휴식을 취하거나 눈 운동을 해주세요!</string>
+	
+	<string name="help_title">도움말 및 주의사항</string>
+	<string name="help_message">&lt;도움말&gt;\n\n알림서비스는 일정시간마다 화면에 알림을 띄워줍니다\n\n스크린필터서비스는 블루라이트를 줄여 눈의 피로를 줄여줍니다\n\n\n&lt;주의사항&gt;\n\n플레이스토어 이외의 앱을 설치할 때는 스크린 필터나 야간 모드의 사용을 잠시 중지해주세요!\n\n스크린 필터와 야간 모드를 같이 사용하면 기기의 속도가 느려질 수 있는 점 양해 부탁 드립니다</string>
+	<string name="help_btn">확인</string>
+
+	<string name="setting_scf">스크린 필터 설정</string>
+	<string name="setting_scf_restart">부팅시 자동시작</string>
+	<string name="setting_scf_restart_ex">기기가 부팅되었을때 자동으로 스크린필터가 작동됩니다</string>
+	<string name="setting_nt">알림 설정</string>
+	<string name="setting_nt_cycle">알림 주기</string>
+	<string name="setting_nt_cycle_ex">알림 주기를 설정합니다</string>
+	<string name="setting_nt_15">15분</string>
+	<string name="setting_nt_30">30분</string>
+	<string name="setting_nt_1h">1시간</string>
+	<string name="setting_nt_2h">2시간</string>
+	<string name="setting_nt_sound">Notification Sound</string>
+	<string name="setting_nt_sound_ex">Play a sound when the notification window appears</string>
+	<string name="setting_nt_vibrate">Notification Vibrate</string>
+	<string name="setting_nt_vibrate_ex">Vibrate when the notification window appears</string>
+</resources>
